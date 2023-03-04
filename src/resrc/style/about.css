@@ -1,0 +1,21 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+ *{
+    font-family: 'Fira Sans', sans-serif;
+}
+.poket_header_top1 {
+    background-color: #f5a96e;
+    color: #ffffff;
+    font-family: sans-serif;
+    font: 15px;
+    margin: 0px;
+}
+.top_left_address{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.top_right_header{
+    display: flex;
+    flex-wrap: wrap;
+}
