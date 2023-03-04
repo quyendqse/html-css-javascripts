@@ -34,3 +34,15 @@
     height: 100px;
     color: black;
 }
+
+.h2 {
+    color: #f5a96e;
+    align-items: center;
+    font-size: 17px;
+}
+
+.h3 {
+    color: black;
+    align-items: center;
+    font-size: 27px;
+}
