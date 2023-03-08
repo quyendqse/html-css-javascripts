@@ -8,31 +8,66 @@
    color: #ffffff;
    font-family: sans-serif;
    font: 15px;
-   margin: 0px;
+   margin: 10px 0px;
    box-sizing: border-box;
-   padding: 10px 0;
+   padding: 10px 30px;
    width: 100%; 
    display: flex;
    justify-content: space-around;
+   
 }
 .poket-header-top-1 .top-left-header-1{
    display: flex;
+   font: 15px;
+}
+
+.poket-header-top-1 .top-left-header-1 .link {
+   text-decoration: none;
+   color: #ffffff;
+   margin-left: 15px;
+   margin-right: 15px;
 }
 
 .poket-header-top-1 .top-right-header-1{
    display: flex;
    flex-wrap: wrap;
    list-style-type: none;
-
-
-
+   font: 17px;
 }
+
+.social-right-top-menu{
+   list-style-type: none;
+   display: flex; 
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.social-right-top-menu li{ 
+   margin-right: 20px;
+}
+
+.social-right-top-menu li:last-child{ 
+   margin-right: 0;
+}
+
+.social-right-top-menu:hover{
+   color: #000000;
+   cursor: pointer;   
+}
+
 
 .poket-header-top-2 .nav-area{ 
     background-color: #ffffff;
     width: 100%;
     height: 100px;
     color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.poket-header-top-2 .sub-menu{
+   list-style-type: none;
+   display: flex;
 }
 
 .h2 {
@@ -45,4 +80,15 @@
     color: black;
     align-items: center;
     font-size: 27px;
+}
+
+.about-area{
+   background-image: url(../image/about-background.jpg);
+   color: #ffffff;
+   text-align: center;
+
+}
+
+.about-area .page.direction{
+   list-style-type: none;
 }
