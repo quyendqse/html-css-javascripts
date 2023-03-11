@@ -46,6 +46,15 @@
    margin-right: 20px;
 }
 
+[class^=icofont-]{
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+[class^=icofont-]:hover{
+   cursor: pointer;
+   color: #000000;
+}
 .social-right-top-menu li:last-child{ 
    margin-right: 0;
 }
@@ -91,4 +100,16 @@
 
 .about-area .page.direction{
    list-style-type: none;
+}
+
+.our-about-us-area{
+   display: flex;
+}
+
+.about-us-left-column{
+   float: left;
+}
+
+.about-us-right-column{
+   float: right;
 }
