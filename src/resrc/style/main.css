@@ -12,6 +12,9 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
 }
+*{
+  margin: 0;
+}
 .Nav {
   background-color: white;
   width: 100%;
