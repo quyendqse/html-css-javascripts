@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
 *{
    font-family: 'Fira Sans', sans-serif;
+   margin: 0;
 }
 
 /*Header 1*/
@@ -332,3 +333,92 @@
 .our-services-right-column-info li{
    list-style-type: none;
 }
+
+/* OUR PROJECT */
+.background6 {
+   padding-top: 110px;
+   text-align: center;
+   margin-top: 80px;
+ }
+ .background6 .background7 {
+   width: 90%;
+   margin: auto;
+   list-style-type: none;
+ }
+ .background6 .background7 img {
+   transition: all 0.3s ease-in-out;
+   overflow: hidden;
+ }
+ .background6 .background7 li:hover img {
+   transform: scale(1.1);
+   opacity: 0.6;
+ }
+ .slick-initialized .slick-slide {
+   margin: 0 10px;
+   text-align: center;
+ }
+ .slick-prev {
+   left: 0;
+ }
+ .slick-next {
+   right: 0;
+ }
+ .slick-arrow {
+   position: absolute;
+   top: 50%;
+   z-index: 2;
+   transform: translateY(-50%);
+   border: none;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   line-height: 1;
+   transition: all 0.2 linear;
+ }
+ .slick-arrow:hover {
+   background-color: #f5a96e;
+ }
+ .background8 {
+   background-image: url("https://themexbd.com/poket/realestate/wp-content/uploads/2021/11/video-bg1.jpg");
+   max-width: 100%;
+   height: 100%;
+   margin-top: 50px;
+ }
+ .background8 .item {
+   background-color: black;
+   width: 100%;
+   height: 100%;
+   opacity: 0.6;
+ }
+ .background8 .item2 {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   line-height: 4;
+ }
+ .background8 .item3 {
+   display: flex;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   justify-content: space-around;
+   column-gap: 30px;
+ }
+ .background9 {
+   background-color: #000000;
+   max-width: 100%;
+   height: 40%;
+ }
+ .background9 .item {
+   display: flex;
+   justify-content: space-around;
+   line-height: 4;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .background9 .item2 {
+   display: flex;
+   justify-content: space-around;
+   column-gap: 30px;
+ }
